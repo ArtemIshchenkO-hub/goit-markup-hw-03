@@ -1,0 +1,9 @@
+.portfolio h2 {
+  text-align: center;
+}
+
+.portfolio h2,
+.portfolio h3,
+.portfolio p {
+  letter-spacing: 0.02em;
+}
