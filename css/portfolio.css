@@ -1,9 +1,32 @@
-.portfolio h2 {
-  text-align: center;
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
-.portfolio h2,
-.portfolio h3,
-.portfolio p {
-  letter-spacing: 0.02em;
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-width: 288px;
+  max-width: 360px;
+  min-height: 360px;
+  max-height: 420px;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
